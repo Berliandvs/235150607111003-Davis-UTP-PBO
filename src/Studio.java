@@ -9,12 +9,10 @@ public class Studio {
     }
 
     public boolean isBooked(int row, int col) {
-        // Implementasi is booked
         return false;
     }
 
     public String getStudioInfo() {
-        // Implementasi get studio info
         return type;
     }
 
