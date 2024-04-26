@@ -11,7 +11,6 @@ public class Ticket {
     }
 
     public double getTicketPrice() {
-        // Implementasi get ticket price
         return price;
     }
 
