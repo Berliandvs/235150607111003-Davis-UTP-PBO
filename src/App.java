@@ -2,8 +2,7 @@ public class App {
     public static void main(String[] args) {
         Cinema cinema = new Cinema("Starry Cinema");
         cinema.init();
-
-        // Contoh penggunaan fitur
+        
         cinema.registerUser("berliandavis@gmail.com", "DAVIS");
         User user = cinema.authenticateUser("berliandavis@gmail.com", "DAVIS");
         if (user != null) {
